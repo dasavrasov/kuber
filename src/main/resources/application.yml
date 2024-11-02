@@ -1,0 +1,10 @@
+server:
+  port: 9000
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5431/postgres
+    username: postgres
+    password: 12345
+logging:
+  level:
+    org.springframework.web: DEBUG
